@@ -27,7 +27,8 @@ namespace _16
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            if (txbAppointment.Text !="" &&  txbColor.Text!= "" && txbheight.Text != "" && txblength.Text != "" && txbManufacturer.Text != "" && txbNameProduct.Text != "" && txbwidth.Text != "")
+            if (txbAppointment.Text !="" &&  txbColor.Text!= "" && txbheight.Text != "" && txblength.Text != "" && txbManufacturer.Text != "" && txbNameProduct.Text != "" && txbwidth.Text != ""
+                && txbPrice.Text != "")
             {
                 MessageBox.Show("Товар добавлен!!!");
             }
